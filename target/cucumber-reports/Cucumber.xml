@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="63.980024">
+<testcase classname="Verifying End to End checkout flow for purchasing &quot;Pillow&quot;" name="Verifying Successful payment" time="27.392368">
+<system-out><![CDATA[When User open demo midtrans website........................................passed
+Then User clicks on Buy button..............................................passed
+Then User clicks on CheckOut button.........................................passed
+Then User clicks on Continue button.........................................passed
+Then User select credit card option.........................................passed
+Then User enters valid Card Number "4811 1111 1111 1114"....................passed
+Then User enters valid Expiry Date "12/24"..................................passed
+Then User enters valid CVV Number "123".....................................passed
+Then User clicks on Pay Now button..........................................passed
+Then User enters Password "112233"..........................................passed
+Then User clicks on ok button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying End to End checkout flow for purchasing &quot;Pillow&quot;" name="Verifying Failed payment" time="36.587656">
+<system-out><![CDATA[When User open demo midtrans website........................................passed
+Then User clicks on Buy button..............................................passed
+Then User clicks on CheckOut button.........................................passed
+Then User clicks on Continue button.........................................passed
+Then User select credit card option.........................................passed
+Then I enter Card Number "4911 1111 1111 1113"..............................passed
+Then I enter invalid Expiry Date "12/20"....................................passed
+Then I enter CVV Number "123"...............................................passed
+Then I click on PayNow button...............................................passed
+Then I enter Password "112233"..............................................passed
+Then I click on okbutton....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102655" started-at="2020-09-13T08:59:50Z" finished-at="2020-09-13T09:01:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.ExecuteTestRunner@7494e528]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="102655" started-at="2020-09-13T08:59:50Z" finished-at="2020-09-13T09:01:32Z">
+      <class name="runner.ExecuteTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.ExecuteTestRunner@7494e528]" name="setUpClass" is-config="true" duration-ms="504" started-at="2020-09-13T14:29:50Z" finished-at="2020-09-13T14:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.ExecuteTestRunner@7494e528]" name="feature" duration-ms="96995" started-at="2020-09-13T14:29:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-13T14:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verifying End to End checkout flow for purchasing "Pillow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:runner.ExecuteTestRunner@7494e528]" name="writeExtentReport" is-config="true" duration-ms="285" started-at="2020-09-13T14:31:27Z" finished-at="2020-09-13T14:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.ExecuteTestRunner@7494e528]" name="tearDownClass" is-config="true" duration-ms="4669" started-at="2020-09-13T14:31:28Z" finished-at="2020-09-13T14:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.ExecuteTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
